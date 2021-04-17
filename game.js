@@ -20,7 +20,7 @@ function yourTurn(e)
 }
   else
  {
-    e.value="^";
+    e.value="O";
     turn++;
  }
 
