@@ -79,8 +79,8 @@ body {
   font-size: 10px;   
   
   /* Set neon color */
-  --neon-text-color: #f40;
-  --neon-border-color: #08f;
+  --neon-text-color:red;
+  --neon-border-color: orange;
 }
 
 body {
@@ -88,7 +88,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;  
-  background: #000;
+  background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
   min-height: 100vh;
 }
 
@@ -151,23 +151,32 @@ h1:focus {
 
 #tic-tac-block
 {
+    
     align-content: center;
     display: block;
     display: none;
 }
-
+#announcement
+{
+    color:peru;
+    text-align: center;
+    font-size: 270px;
+ 
+}
 .row
 {
     display: flex;
 }
 
+
 input
 {
+    
     width: 150px;
     height: 150px;
     font-size: 130px;
     cursor:cell;
-    color: transparent;
+    color:transparent;
     text-shadow: 0 0 0 black;
 
     &:focus {
