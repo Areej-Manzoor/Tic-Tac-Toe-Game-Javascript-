@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+  
+</head>
+<body>
+    <div class="neon" id="tic-tac">
+        <span class="text" data-text="Tic Tack Toe">Tic Tack Toe</span>
+        <span class="gradient"></span>
+        <span class="spotlight"></span>
+      </div>
+
+      <h1 contenteditable spellcheck="false" id="welcome" >WELCOME</h1>
+</body>
+<script>
+     setTimeout (function(){
+         
+        document.getElementById("tic-tac").style.display ='none';
+        document.getElementById("welcome").style.display ='block';
+    },3000);
+</script>
+</html>
