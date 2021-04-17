@@ -5,6 +5,9 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
+    background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
+    min-height: 100vh;
+
 }
 
 .neon {
@@ -162,6 +165,12 @@ h1:focus {
     text-align: center;
     font-size: 270px;
  
+}
+button
+{
+    height: 70px;
+    width: 474px;
+    font-size: 25px;
 }
 .row
 {
