@@ -147,3 +147,33 @@ h1:focus {
         box-shadow: none;
     }    
 }
+
+
+#tic-tac-block
+{
+    align-content: center;
+    display: block;
+    display: none;
+}
+
+.row
+{
+    display: flex;
+}
+
+input
+{
+    width: 150px;
+    height: 150px;
+    font-size: 130px;
+    cursor:cell;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+
+    &:focus {
+        outline: none;
+    }
+
+}
+
+    
