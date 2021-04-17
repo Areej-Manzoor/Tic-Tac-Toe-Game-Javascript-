@@ -19,6 +19,8 @@ function yourTurn(e)
     e.disabled=true;
     e.style.color="orange";
     turn++;
+    document.getElementById("user-turn").innerHTML="O TURN";
+
 
 }
   else
@@ -27,6 +29,7 @@ function yourTurn(e)
     e.disabled=true;
     e.style.color="lightgreen";
     turn++;
+    document.getElementById("user-turn").innerHTML="X TURN";
  
  }
  var b1=document.getElementById("b1").value;
